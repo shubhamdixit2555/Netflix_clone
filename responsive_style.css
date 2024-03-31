@@ -1,0 +1,269 @@
+
+@media (max-width: 1100px) {
+  .main {
+    background-size: cover;
+    position: relative;
+    background-repeat: repeat-x;
+  }
+  .inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .section {
+    height: auto;
+  }
+  .section_last {
+    height: auto;
+    padding: 10px;
+  }
+  .last_btns {
+    width: 100%;
+  }
+  .hero > :nth-child(1) {
+    font-size: 2.5rem;
+  }
+  .hero > :nth-child(2) {
+    font-size: 22px;
+  }
+  .hero > :nth-child(3) {
+    font-size: 18px;
+  }
+  .section_vdo_2 video {
+    right: 0%;
+  }
+  .dis{
+    width: 81.5vw;
+  }
+}
+@media (max-width: 800px) {
+  .main {
+    height: 400px;
+  }
+  nav span img {
+    width: 70%;
+  }
+  .btn-black-white {
+    width: 110px;
+    height: 30px;
+    padding: 5px 30px;
+    font-size: 17px;
+  }
+  .btn-red-white {
+    padding: 8px;
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .hero {
+    gap: 15px;
+    padding: 40px 20px;
+    padding: 10%;
+  }
+  .hero > :nth-child(1) {
+    font-size: 30px;
+  }
+  .hero > :nth-child(2) {
+    font-size: 20px;
+  }
+  .hero > :nth-child(3) {
+    font-size: 16px;
+  }
+  .section_vdo video {
+    right: 0px;
+  }
+  .hero-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .email {
+    height: 40px;
+  }
+  .submit {
+    margin-top: 10px;
+    height: 40px;
+  }
+  .section {
+    padding: 20px 50px;
+  }
+  .section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .section p {
+    font-size: 1.25rem;
+  }
+  .section_last h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .section_last p {
+    display: none;
+  }
+  .dis{
+    width: 79vw;
+  }
+}
+@media (max-width: 650px) {
+  nav span img {
+    width: 50%;
+  }
+  .btn-black-white {
+    width: 75px;
+    height: 22px;
+    padding: 3px;
+    font-size: 10px;
+  }
+  .btn-red-white {
+    width: 75px;
+    height: 22px;
+    padding: 3px;
+    font-size: 10px;
+  }
+  .hero {
+    gap: 15px;
+    padding: 30px;
+    padding: 8%;
+  }
+  .hero > :nth-child(1) {
+    font-size: 20px;
+  }
+  .hero > :nth-child(2) {
+    font-size: 15px;
+  }
+  .hero > :nth-child(3) {
+    font-size: 12px;
+  }
+  .email {
+    height: 30px;
+    width: 250px;
+    font-size: 15px;
+  }
+  .submit {
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+    font-size: 15px;
+  }
+  .section {
+    padding: 10px 30px;
+  }
+  .section h2 {
+    font-size: 1.5rem;
+  }
+  .section p {
+    font-size: 1rem;
+  }
+  .section_last h2 {
+    font-size: 1.5rem;
+  }
+  .section_last .last_btns {
+    height: 55px;
+    padding: 15px;
+    font-size: 1.15rem;
+  }
+  .ul_and_li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 12px;
+    margin-left: 12%;
+  }
+  .copy {
+    font-size: small;
+  }
+  .dis{
+    width: 79vw;
+  }
+}
+/* for phone */
+@media (max-width: 500px) {
+  .btn-black-white {
+    width: 70px;
+    height: 30px;
+    padding: 2px;
+    font-size: 15px;
+  }
+  .btn-red-white {
+    width: 70px;
+    height: 30px;
+    padding: 2px;
+    font-size: 15px;
+  }
+  .submit{
+    height: 45px;
+    width: 180px;
+  }
+  .nav_btn {
+    display: flex;
+  }
+  .section {
+    padding: 20px;
+  }
+  .dec_height {
+    height: 300px;
+  }
+  .sml_img {
+    width: 100%;
+  }
+  .section h2 {
+    font-size: 1.9rem;
+  }
+  .section p {
+    font-size: 1.2rem;
+  }
+  .section_last p {
+    display: unset;
+    font-size: 17px;
+    padding: 0 40px;
+    text-align: center;
+  }
+  .section_last h2 {
+    font-size: 2rem;
+  }
+  .section_last .last_btns {
+    height: 65px;
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+  }
+  .section_vdo img,
+  .section_vdo_2 img {
+    width: 100%;
+  }
+  .section_vdo video {
+    width: 80%;
+    top: -225px;
+  }
+  .section_vdo_2 video {
+    top: -255px;
+    width: 65%;
+  }
+  .dis{
+    width: 75vw;
+  }
+  .hero{
+    padding: 80px 30px;
+  }
+  .hero > :nth-child(1) {
+    font-size: 30px;
+  }
+  .hero > :nth-child(2) {
+    font-size: 20px;
+  }
+  .hero > :nth-child(3) {
+    font-size: 17px;
+  }
+  .email{
+    height: 45px;
+    width: 75%;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 1000px) {
+    .inside_reverse {
+    flex-direction: row-reverse;
+  }
+}
